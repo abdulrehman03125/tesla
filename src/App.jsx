@@ -2,17 +2,17 @@ import react from 'react'
 import './App.css'
 import { Routes, Route } from "react-router";
 import TaslaModel from './components/TeslaModel'
-// import Footer from './pages/Footer';
+// import Vehicles from './pages/Vehicles';
+import Navbar from './components/Navbar';
 function App() {
 
   return (
     <>
+    <Navbar/>
     <Routes>
     <Route index element={<TaslaModel />} />
-    {/* <Route path='/TeslaModel' element={<Footer />} /> */}
+    {/* <Route path='/' element={<Vehicles/>} /> */}
     </Routes>
-  {/* <TaslaModel/> */}
-  {/* <Footer/> */}
     </>
   )
 }

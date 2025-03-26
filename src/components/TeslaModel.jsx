@@ -1,5 +1,4 @@
 import { Button } from "antd";
-import Navbar from "./Navbar";
 import { Facebook, Twitter, Instagram } from "lucide-react";
 import { Layout } from "antd";
 
@@ -14,8 +13,6 @@ import image5 from "../assets/images/home5.jpg";
 const TeslaModel = () => {
     return (
         <div className="relative w-full h-screen">
-            {/* Navbar */}
-            <Navbar />
 
             {/* Model 3 Section */}
             <div
