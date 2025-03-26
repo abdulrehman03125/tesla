@@ -1,21 +1,14 @@
 import React from "react";
 import { ShoppingCart, Info } from "lucide-react";
 
-import image from "../assets/images/21.webp"; // Import instead of using a string path
-import image2 from "../assets/images/22.webp"; // Import instead of using a string path
-import image3 from "../assets/images/23.webp";
-import image4 from "../assets/images/24.webp";
-import image5 from "../assets/images/25.jpg";
-import image6 from "../assets/images/27.png";
-
 const vehicles = [
-    { name: "Model S", img: image },
-    { name: "Model 3", img: image2 },
-    { name: "Model Y", img: image3 },
-    { name: "New Model Y", img: image4 },
-    { name: "Model X", img: image5 },
-    { name: "Model X", img: image6 }
-
+  { name: "Model S", img: "url-to-model-s.jpg" },
+  { name: "Model 3", img: "url-to-model-3.jpg" },
+  { name: "Model Y", img: "url-to-model-y.jpg" },
+  { name: "New Model Y", img: "url-to-new-model-y.jpg" },
+  { name: "Model X", img: "url-to-model-x.jpg" },
+  { name: "Cybertruck", img: "url-to-cybertruck.jpg" },
+  { name: "Inventory", img: "url-to-inventory.jpg" },
 ];
 
 const sidebarLinks = [
@@ -31,15 +24,14 @@ const sidebarLinks = [
   "We, Robot",
 ];
 
-const Vehicles = ()=> {
+export default function TeslaModels() {
   return (
-    
-    <div className="flex p-1 space-x-4 w-[800px] mx-auto">
+    <div className="flex p-6 space-x-8 w-full mx-auto justify-between">
       {/* Main Grid */}
-      <div className="grid grid-cols-4 gap-6 flex-grow">
+      <div className="grid grid-cols-3 gap-6 flex-grow max-w-[900px]">
         {vehicles.map((car, index) => (
           <div key={index} className="text-center">
-            <img src={car.img} alt={car.name} className="w-full h-40 object-contain rounded-lg" />
+            <img src={car.img} alt={car.name} className="w-full h-40 object-cover rounded-lg" />
             <h3 className="text-lg font-semibold mt-2">{car.name}</h3>
             <div className="flex justify-center gap-4 mt-2">
               <button className="flex items-center gap-1 text-blue-500">
@@ -53,7 +45,7 @@ const Vehicles = ()=> {
         ))}
       </div>
       {/* Sidebar */}
-      <div className="w-48 space-y-2">
+      <div className="w-48 space-y-2 flex-shrink-0">
         {sidebarLinks.map((link, index) => (
           <a key={index} href="#" className="block text-gray-600 hover:text-black">
             {link}
@@ -63,5 +55,3 @@ const Vehicles = ()=> {
     </div>
   );
 }
-
-export default Vehicles;

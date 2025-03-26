@@ -10,9 +10,12 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-gradient-to-b from-blue-600 to-blue-400 py-4 px-6 flex justify-between items-center z-50 shadow-md">
       {/* LOGO */}
-      <NavLink to="/" className="text-white text-2xl font-bold tracking-widest">
-        PRIMERIGS
+      <NavLink to="/">
+        <img src="/path-to-your-logo.png" alt="PRIMERIGS" className="text-white text-2xl font-bold tracking-widest" />
       </NavLink>
+      {/* <NavLink to="/" className="text-white text-2xl font-bold tracking-widest">
+        PRIMERIGS
+      </NavLink> */}
 
       {/* Desktop Navigation */}
       <div className="hidden md:flex items-center gap-6">
