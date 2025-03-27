@@ -24,7 +24,7 @@ const Navbar = () => {
           onMouseOver={() => setShowDropdown(true)}
           onMouseLeave={() => setShowDropdown(false)}
         >
-          <NavLink to="/Vehicles" className="hover:bg-gray-300 px-3 py-2 rounded">
+          <NavLink to="/" className="hover:bg-gray-300 px-3 py-2 rounded">
             Vehicles
           </NavLink>
           {/* Dropdown */}
