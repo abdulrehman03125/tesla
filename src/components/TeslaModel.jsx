@@ -21,7 +21,7 @@ const TeslaModel = () => {
             >
                 <div className="absolute inset-0  "></div>
                 <div className="relative text-center max-w-lg mb-45 md:mt-20">
-                    <h1 className="text-2xl md:text-7xl font-bold">Model 3</h1>
+                    <h1 className="text-2xl md:text-7xl font-bold">PRIMERIGS 3</h1>
                     <div className="mt-6 flex flex-col md:flex-row justify-center gap-4">
                         <Button type="primary" size="large" className="w-full md:w-64 text-lg md:text-2xl px-6 py-4">
                             Order Now
@@ -41,11 +41,11 @@ const TeslaModel = () => {
             >
                 <div className="absolute inset-0  "></div>
                 <div className="relative text-center max-w-lg mb-45 md:mt-20">
-                    <h1 className="text-4xl mt-10 md:text-5xl font-bold">Model Y</h1>
+                    <h1 className="text-4xl mt-10 md:text-5xl font-bold">PRIMERIGS Y</h1>
                     <p className="text-base md:text-lg mt-4">$7,500 Federal Tax Credit at Purchase</p>
                     <div className="mt-70 flex flex-col md:flex-row justify-center gap-4">
                         <Button type="primary" size="large" className="w-full  md:w-64 text-2xl px-12 py-6">
-                            Order New Model Y
+                            Order New PRIMERIGS Y
                         </Button>
                         <Button size="large" className="w-full md:w-64 text-2xl px-12 py-6">
                             View Inventory
@@ -59,7 +59,7 @@ const TeslaModel = () => {
             >
                 <div className="absolute inset-0  "></div>
                 <div className="relative text-center  max-w-lg">
-                    <h1 className="text-4xl mt-2 md:text-5xl font-bold">Model Y</h1>
+                    <h1 className="text-4xl mt-2 md:text-5xl font-bold">PRIMERIGS Y</h1>
                     <p className="text-base md:text-lg mt-4">$7,500 Federal Tax Credit at Purchase</p>
                     <div className="flex items-center justify-center mr-5 mt-48">
                         <div className="flex space-x-1 text-yellow-500">
@@ -85,7 +85,7 @@ const TeslaModel = () => {
             >
                 <div className="absolute inset-0  "></div>
                 <div className="relative text-center  max-w-lg">
-                    <h1 className="text-4xl mt-5 md:text-5xl font-bold">Model X</h1>
+                    <h1 className="text-4xl mt-5 md:text-5xl font-bold">PRIMERIGS X</h1>
                     <p className="text-base md:text-lg mt-3">Free Supercharging Included</p>
                     <div className="mt-48 flex flex-col md:flex-row justify-center gap-4">
                         <Button type="primary" size="large" className="w-full md:w-64 text-2xl px-12 py-6">
@@ -103,7 +103,7 @@ const TeslaModel = () => {
             >
                 <div className="absolute inset-0  "></div>
                 <div className="relative text-center  max-w-lg">
-                    <h1 className="text-4xl mt-5 md:text-5xl font-bold">Model S</h1>
+                    <h1 className="text-4xl mt-5 md:text-5xl font-bold">PRIMERIGS S</h1>
                     <p className="text-base md:text-lg mt-3">Free Supercharging Included</p>
                     <div className="mt-70 flex flex-col md:flex-row justify-center gap-4">
                         <Button type="primary" size="large" className="w-full md:w-64 text-2xl px-12 py-6">

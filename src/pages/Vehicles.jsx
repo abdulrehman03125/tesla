@@ -9,12 +9,12 @@ import image5 from "../assets/images/25.jpg";
 import image6 from "../assets/images/27.png";
 
 const vehicles = [
-    { name: "Model S", img: image },
-    { name: "Model 3", img: image2 },
-    { name: "Model Y", img: image3 },
-    { name: "New Model Y", img: image4 },
-    { name: "Model X", img: image5 },
-    { name: "Model X", img: image6 }
+    { name: "PRIMERIGS S", img: image },
+    { name: "PRIMERIGS 3", img: image2 },
+    { name: "PRIMERIGS Y", img: image3 },
+    { name: "New PRIMERIGS Y", img: image4 },
+    { name: "PRIMERIGS X", img: image5 },
+    { name: "PRIMERIGS X", img: image6 }
 
 ];
 
@@ -53,13 +53,13 @@ const Vehicles = ()=> {
         ))}
       </div>
       {/* Sidebar */}
-      <div className="w-48 space-y-2">
+      {/* <div className="w-48 space-y-2">
         {sidebarLinks.map((link, index) => (
           <a key={index} href="#" className="block text-gray-600 hover:text-black">
             {link}
           </a>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }
